@@ -16,11 +16,11 @@
 <body>
   <header class="navbar navbar-dark bg-inverse">
     <div class="container">
-      <%= link_to 'Vagabond', root_path, class: 'navbar-brand' %>
+      <%= link_to "Vagabond", root_path, id: "logo" %>     
       <nav>
         <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item"> <%= link_to 'Places', places_path, class: 'nav-link' %> </li>
-          <li><%= link_to 'Add Place', new_place_path, class: 'nav-link' %></li>
+          <li class="nav-item"> <%= link_to "Places", places_path %> </li>
+          <li><%= link_to "Add Place", new_place_path %></li>
           <li><%#<%= link_to 'Measure distance between places', new_distance_path, class: 'nav-link' %></li>
         </ul>
       </nav>
