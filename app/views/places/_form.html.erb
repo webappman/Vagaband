@@ -12,6 +12,7 @@
   <fieldset class="form_group">
     <%= f.label :address %>
     <%= f.text_field :address, class: "form_contorl"%>
+    <small class="text_muted">You can also enter IP. Your IP is <%= request.ip %></small>
   </fieldset>
 
   <%= f.submit 'Add!', class: 'btn btn-primary' %>
