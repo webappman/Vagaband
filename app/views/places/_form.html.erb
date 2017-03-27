@@ -1,0 +1,18 @@
+<%= form_for @place do |f| %>
+  <fieldset class="form_group">
+    <%= f.label :title %>
+    <%= f.text_field :visited_by, class: "form_contorl"%>
+  </fieldset>
+
+  <fieldset class="form_group">
+    <%= f.label :visited_by %>
+    <%= f.text_field :visited_by, class: "form_contorl"%>
+  </fieldset>
+
+  <fieldset class="form_group">
+    <%= f.label :address %>
+    <%= f.text_field :address, class: "form_contorl"%>
+  </fieldset>
+
+  <%= f.submit 'Add!', class: 'btn btn-primary' %>
+<% end %>
