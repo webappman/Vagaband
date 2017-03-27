@@ -1,19 +1,24 @@
-<%= form_for @place do |f| %>
-  <fieldset class="form_group">
-    <%= f.label :title %>
-    <%= f.text_field :visited_by, class: "form_contorl"%>
-  </fieldset>
+<h4>Enter either address or coordinates</h4>
+<fieldset class="form-group">
+  <%= f.label :raw_address, 'Address' %>
+  <%= f.text_field :raw_address, class: "form-control" %>
+  <small class="text-muted">You can also enter IP. Your IP is <%= request.ip %></small>
+</fieldset>
 
-  <fieldset class="form_group">
-    <%= f.label :visited_by %>
-    <%= f.text_field :visited_by, class: "form_contorl"%>
-  </fieldset>
+<div class="form-group row">
+  <div class="col-sm-1">
+    <%= f.label :latitude %>
+  </div>
 
-  <fieldset class="form_group">
-    <%= f.label :address %>
-    <%= f.text_field :address, class: "form_contorl"%>
-    <small class="text_muted">You can also enter IP. Your IP is <%= request.ip %></small>
-  </fieldset>
+  <div class="col-sm-3">
+    <%= f.text_field :latitude, class: "form-control" %>
+  </div>
 
-  <%= f.submit 'Add!', class: 'btn btn-primary' %>
-<% end %>
+  <div class="col-sm-1">
+    <%= f.label :longitude %>
+  </div>
+
+  <div class="col-sm-3">
+    <%= f.text_field :longitude, class: "form-control" %>
+  </div>
+</div>
