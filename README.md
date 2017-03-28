@@ -2,6 +2,7 @@
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
+![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 Things you may want to cover:
 
