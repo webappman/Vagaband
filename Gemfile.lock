@@ -41,6 +41,12 @@ GEM
     arel (7.1.4)
     autoprefixer-rails (6.7.7.1)
       execjs
+<<<<<<< HEAD
+=======
+    bootstrap (4.0.0.alpha6)
+      autoprefixer-rails (>= 6.0.3)
+      sass (>= 3.4.19)
+>>>>>>> fc24a9e6a590bf88065241b764fbf49c4ff7eec7
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
@@ -160,6 +166,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
+=======
+  bootstrap (~> 4.0.0.alpha3)
+>>>>>>> fc24a9e6a590bf88065241b764fbf49c4ff7eec7
   bootstrap-sass (= 3.3.6)
   byebug
   coffee-rails (~> 4.2)
