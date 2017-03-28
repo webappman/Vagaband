@@ -14,14 +14,14 @@
 </head>
 
 <body>
-  <header class="navbar navbar-dark bg-inverse">
+  <header class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
       <%= link_to "Vagabond", root_path, id: "logo" %>     
       <nav>
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item"> <%= link_to "Places", places_path %> </li>
           <li><%= link_to "Add Place", new_place_path %></li>
-          <li><%#<%= link_to 'Measure distance between places', new_distance_path, class: 'nav-link' %></li>
+          <li><%= link_to 'Measure distance between places', new_distance_path %></li>
         </ul>
       </nav>
     </div>
