@@ -1,26 +1,10 @@
-# README
+# Vagaband
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Project is Vagaband web app using Geocoder gem in Rails 5.
 <p align="center">
   <img src="./app/assets/images/1.png"/>
 </p>
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Install Ruby -v 2.4.1 and Rails -v 5.0.1
+* bundle install
+* rake db:create db:migrate db:schema:load
+* rails server
