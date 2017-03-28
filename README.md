@@ -2,8 +2,9 @@
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
-![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-
+<p align="center">
+  <img src="./app/assets/images/1.png"/>
+</p>
 Things you may want to cover:
 
 * Ruby version
